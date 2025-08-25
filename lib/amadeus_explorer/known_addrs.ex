@@ -58,13 +58,51 @@ defmodule AmadeusExplorer.KnownAddrs do
     af = [
       "7SCZ6NzKPV27prSAv1CiGLZPHRpqEX9GR3wdCWkW6kstsd2tk5ejeeKKaf1y5hQZhc",
       "5sLrta7CRdnhwdRrtN25dxS8HbUKbcpjprJ1Kxe1pBtfNefz4pPDLH6C8MQLCXb91i",
-      "5wrduSMTjRxz5x7JXKxJ3nSehpRHaMZGyAdiRtqkBNBXzNpfxx2KPsxEVAHDV7KFMp"
+      "5wrduSMTjRxz5x7JXKxJ3nSehpRHaMZGyAdiRtqkBNBXzNpfxx2KPsxEVAHDV7KFMp",
+      "7jqCWJUetJmMhzHUekExpNozBfNbZQgaMNnaZmFfDCSsWS9PLCnrAGAEodnd48ZYik",
+      "7fKbfUfW5sErmaa1FZeZ2Kf2xMr5T1u5kx1vppGZ5Zdrx3Q95on84JwsVs7p7DR7tf",
+      "5jX2GHtbPnRcQ2EcAAEJNgLQtf3jrxzZVuhES4nTZhjtA8ofEwxH92TZfXspAUHxda",
+      "5zN69JJ6nCJcXdfxcHHG1q9fBJnKXDXWqkzMZQ2Y1gmaSvWwezYF1zD7GKUx1zbQoq",
+      "7bd4moBphcUfcx1DYkMHhs26V29ibaS87wHbVpaU9zaJvbasKEdnkVHJ5en2QZkpdp",
+      "66Q1Cdt9YVaY3Ak5jgwvHTZrQmwZaHtMDszGhPjFn9L6JBqrX75tkCQJfE7URu68sd",
+      "7DEimnJFN6fPy8k32MHgg7UBY4iqHHcqbHBWX1i4dMhyiJtNMKPhecADXKeHyTstHh",
+      "6uFFKt5CeRMbrjhygrmXqbdyBWCSoNMkkApe6Pxi5FxCNbJcT4ggg8cKD873tANYok",
+      "5wi996mL5YemU1xYxsdMjiAq1mVg63NGKwTm8UgYVafFkLP2Rp2tDECmmxWTA3mYST"
     ]
 
     will_caster = [
       "5qYZD8HVJzXX4UJDCe6gHdAu4or2jWdnkUX1ZLdGxBx3cKj6NkbXNz46CGxMjqyuL1",
       "7SGTxaLStDPbLKnjcXC1fqN3xaGBs4oFEPVa6UVDwt5N63C7US4vf8wP9hB4p9Fdku",
       "6ddsvp1auJ2zWqDwFJdoHvijEsHyXLfS2yFnxmyCBfgU7PsNRoeMgJSRhdforShBk5"
+    ]
+
+    initials = [
+      "6969GaCysicYUFd6JQhxG1QPwRvXdTGtWVCCAEgM6Kq1jcSMX7RySrSFU9WRHWbJyE",
+      "5yeMvJCpTGsQT9zVKHen9D9yYpMASDu8bvcUCjFsmwuvxqSeMy4o4SmjPPaHNdtLjN",
+      "7bbTbkXuDNHwnNR2h5m8RWA3McqBhhMZ9A9RGeHLwMCgaeJABPe7Wp1JKEddENDwMN",
+      "75nvmLJ3EjLVKntGETaQn59DwL9jrxp3cyREhLyP2UvK5cEjWqkVDt84q6EdSL9n2T",
+      "5oqdqhQmQYUZAnnUA2Ro5zryKixoL5DSEi8oRH47wpBgzd331Zwa4ZKkoMp8aUCFZN",
+      "6Y72peFtiNrWTuzSe8vBXmEbBscYcEAFzfwBXQwpamMhWqKnZScybSRmAG8QP1XhrX",
+      "6w1375LPEaiNpELJARXM9wB4JTrhYHxumdivWi2HrAcTr1aJgTxDHPkS59frqXB4rk",
+      "6tvbg9aSduPjysrqfRmBseDUWpumS1NF7x8zEX1RYSrKZDTtwkmt6UNuM4fMnj4RiJ",
+      "7TjD5MHmTduZBm9TKrmqmPZkfkzKxRBAwsvLTUxLtWEPES8XnDivn3yKbJP4ukr5Jt",
+      "6DGXVRincEfrMf1uULtCMARHzBfkqFw5PybgRN9UL6C6mMtt15ikVPQEU2rZCKfiwg",
+      "6Z5oFHVHrR4b5xh3E7nmQNLWjB9nE2C9vmqdaxDCc7i8seatENHyra2y5cZLsbbYn1",
+      "7MatuKWRgbVHoBRiMSQ7T1vyam7PpLBhhc5nJAsFCHiKGNkZYHaE3xqcVVcVX8rthu",
+      "7RM51rp12raGyxP4mbet3YTMqrrVpE7sqrBLABM1JVs8jCTmAYX1v9Dy3C7hn37kUp",
+      "7M8CGZF83tqtPEeDRdGsHVCKXicrfYuBzdckmHvJ3NyqhcWKA62pAmcQWrJUDETjgN",
+      "6BPja6PpMnrggpF2735JEXVz5AXprrwCrt7E3vnFDzH3hVuXaekMb4hoSAB6mTZBjt",
+      "67S6BnB9WwJgixgAGArUxxZNcrwAKgQKajZcpAbmxWg2zBBpZeZ6Lch8hVS6VKEFas",
+      "6z8V3ALPZYaENgccZrBt6zhPvWvYmC7nngp2rMMxH1Gu9B6MWgV1QLNTerU44Gb7ti",
+      "6WjdAs3KfgMU7ghQJ2DhUr54RK3vva9UPEYY2eBjmdhSpSaAEcDdn2BBTEg6gMp59G",
+      "5q6x1ZB47DvRiHnMjM7hoJaykczPYJF4qYRJuxvpkMB7Ca1uyfdwtpfHSqD7EJxDzy",
+      "7ZvC6KWxs4C2H4Qz1cPzNvhPyEXFg7AcvbKndXHGYM5wgi84rzsKPbEkbrQCT5RfX3",
+      "7DYCdusKW3SLj1CsFNKyV6fnczqrJfGmPLY1CCZFyHnzgkctQasmxkGxkgPUZnr51D",
+      "6FhHDv2dFhniUeuptTWviHUFCXpoFwBWNqFHdTgB95B9pK4YTbR3t5G9mJXBoJArBm",
+      "5u4PAK7oTzUKprGzoprsWygiMftP4sJZMgLKADE78cxZkxTMLws9FFJewzk7QftuXr",
+      "7e2KSLPhN4WETRh8TnCEFVxqAE2ULMFSZRvHbJaT8HUgaHWEd8VcGkFc8Fk41NwQe5",
+      "6bxWw14AD53EN6BBRKymxQz9Ck2n9nKqPjSEEVhsremhxi8Tbn9HoEk4nVAguNiXb5",
+      "5rK1Wng3fmaUWSoCgyJLTQTqcJQCWvZBNK5ak97p9DrdEbcCxed766mizRAM2NAHnm"
     ]
 
     cond do
@@ -76,6 +114,9 @@ defmodule AmadeusExplorer.KnownAddrs do
 
       addr in mia ->
         "mia"
+
+      addr in initials ->
+        "initial"
 
       true ->
         ""

@@ -5,6 +5,32 @@ const plugin = require("tailwindcss/plugin")
 const fs = require("fs")
 const path = require("path")
 
+//module.exports = {
+//  darkMode: 'class',
+//  content: [
+//    './js/**/*.js',
+//    '../lib/*_web.ex',
+//    '../lib/*_web/**/*.*ex'
+//  ],
+//  theme: {
+//    extend: {
+//      colors: {
+//        starcraft: {
+//          bg: '#0a0f1a',
+//          panel: '#1a2233',
+//          neon: '#00f0ff',
+//          accent: '#ffcc00',
+//          alert: '#ff4444'
+//        }
+//      },
+//      fontFamily: {
+//        techno: ['Orbitron', 'sans-serif'],
+//      },
+//    },
+//  },
+//  plugins: [],
+//}
+
 module.exports = {
   content: [
     "./js/**/*.js",
@@ -15,7 +41,14 @@ module.exports = {
     extend: {
       colors: {
         brand: "#FD4F00",
-      }
+        starcraft: {
+          bg: '#0a0f1a',
+          panel: '#1a2233',
+          neon: '#00f0ff',
+          accent: '#ffcc00',
+          alert: '#ff4444'
+        }
+       }
     },
   },
   plugins: [
