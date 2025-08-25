@@ -1,4 +1,4 @@
-defmodule AmadeusExplorer do
+defmodule AmadeusExplorer.KnownAddrs do
   def known_addr(addr) do
     mia = [
       "6HpVK1LFZceLgsk1DNoLifN4F9dFoc2T54332AFF44BTwVoTb1GUdMm9zoGtB4DEfd",
@@ -56,7 +56,7 @@ defmodule AmadeusExplorer do
     ]
 
     af = [
-      "7SGTxaLStDPbLKnjcXC1fqN3xaGBs4oFEPVa6UVDwt5N63C7US4vf8wP9hB4p9Fdku",
+      "7SCZ6NzKPV27prSAv1CiGLZPHRpqEX9GR3wdCWkW6kstsd2tk5ejeeKKaf1y5hQZhc",
       "5sLrta7CRdnhwdRrtN25dxS8HbUKbcpjprJ1Kxe1pBtfNefz4pPDLH6C8MQLCXb91i",
       "5wrduSMTjRxz5x7JXKxJ3nSehpRHaMZGyAdiRtqkBNBXzNpfxx2KPsxEVAHDV7KFMp"
     ]

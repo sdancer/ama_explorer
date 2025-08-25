@@ -19,7 +19,7 @@ defmodule AmadeusExplorerWeb.EpochLive do
           if total > 0, do: m.sols * 100.0 / total, else: 0.0
 
         m = Map.put(m, :percent, pct)
-        m = Map.put(m, :comment, AmadeusExplorer.known_addr(m.miner_key))
+        m = Map.put(m, :comment, AmadeusExplorer.KnownAddrs.known_addr(m.miner_key))
         Map.put(m, :id, m.miner_key)
       end)
 
