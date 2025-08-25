@@ -105,12 +105,21 @@ defmodule AmadeusExplorer.KnownAddrs do
       "5rK1Wng3fmaUWSoCgyJLTQTqcJQCWvZBNK5ak97p9DrdEbcCxed766mizRAM2NAHnm"
     ]
 
+    actor2 = [
+      "72draQDGAeauUcdqdNGVEBa9TgTimZBsR9PTM2zUDEJgPkzTPuqBG8fLEFaBgG9j6N",
+      "6GWeWCuPzmGyQ5gn1F8kNK52VEyMKfXu1p655DqFozi5HdMVZaVPHxCVr7r2cU44R8",
+      "5v7ikipZDFrUq26tAcHHXvyxsJByf4HTqGc8W2BPVHT9Q1vZwvNRfK1xHXDVR18mbH"
+    ]
+
     cond do
       addr in af ->
         "AF"
 
       addr in will_caster ->
         "will_caster"
+
+      addr in actor2 ->
+        "actor2"
 
       addr in mia ->
         "mia"
