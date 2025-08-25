@@ -19,6 +19,7 @@ defmodule AmadeusExplorerWeb.EpochLive do
           if total > 0, do: m.sols * 100.0 / total, else: 0.0
 
         m = Map.put(m, :percent, pct)
+        m = Map.put(m, :comment, AmadeusExplorer.known_addr(m.miner_key))
         Map.put(m, :id, m.miner_key)
       end)
 
@@ -82,7 +83,7 @@ defmodule AmadeusExplorerWeb.EpochLive do
           <tbody id="miners" phx-update="stream">
             <%= for {dom_id, row} <- @streams.miners do %>
               <tr id={dom_id} class="border-t">
-                <td class="p-2 font-mono">{row.miner_key}</td>
+                <td class="p-2 font-mono">{row.miner_key} {row.comment}</td>
                 <td class="p-2 text-right font-mono">{fmt_int(row.sols)}</td>
                 <td class="p-2 text-right">{fmt_pct(row.percent)}%</td>
               </tr>
