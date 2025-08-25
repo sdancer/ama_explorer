@@ -74,7 +74,8 @@ defmodule AmadeusExplorer.KnownAddrs do
       "5qYZD8HVJzXX4UJDCe6gHdAu4or2jWdnkUX1ZLdGxBx3cKj6NkbXNz46CGxMjqyuL1",
       "7SGTxaLStDPbLKnjcXC1fqN3xaGBs4oFEPVa6UVDwt5N63C7US4vf8wP9hB4p9Fdku",
       "6ddsvp1auJ2zWqDwFJdoHvijEsHyXLfS2yFnxmyCBfgU7PsNRoeMgJSRhdforShBk5",
-      "7EUorF3cVLhhGMCAfZo2MGC6vZXGQJcXv9gpAve6zeJ8gHWcjpL3GS697aC7gSSHfi"
+      "7EUorF3cVLhhGMCAfZo2MGC6vZXGQJcXv9gpAve6zeJ8gHWcjpL3GS697aC7gSSHfi",
+      "6uCWrNLaMzWjPM9PfieLzTLsGuvHnEKdw3M5WJe7jJMqWDLJp2U24dx6XSoy8aj4B4"
     ]
 
     initials = [
