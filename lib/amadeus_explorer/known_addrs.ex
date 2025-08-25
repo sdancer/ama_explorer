@@ -114,9 +114,33 @@ defmodule AmadeusExplorer.KnownAddrs do
       "5v7ikipZDFrUq26tAcHHXvyxsJByf4HTqGc8W2BPVHT9Q1vZwvNRfK1xHXDVR18mbH"
     ]
 
+    crab = [
+      "6bmQpVDCyPBj3eNQ4Bz7zjGCC52rZ2PgtBANazbkESPVjxoHyGkJuPmmyB15ikekTH",
+      "72F3MbVLuUzxALsXAsTEJptYFGL9ewrHFhktZCGvj7JhWXnKJScpVqbbVTAEvU9Tok"
+    ]
+
+    egypt = [
+      "6bntFSNoGRQtaJkqD9czp9RxkiajVYg9mdnYd6h8gV3CFZKUd4eC6vCGWWfXHjMUXX",
+      "6PAzwkAhjNPFrXDBE2Ew9YovvAZ3Z3abFEA6xFuRAgRDT2dsNyxDvrLLX7HVQwWht7",
+      "72draQDGAeauUcdqdNGVEBa9TgTimZBsR9PTM2zUDEJgPkzTPuqBG8fLEFaBgG9j6N",
+      "77PbahMBp91VnyQsBc3f59JvEiGoSuS6JUUtYmm1i3XZHxYyekgNoaoifJ5NLHA7sJ",
+      "6GWeWCuPzmGyQ5gn1F8kNK52VEyMKfXu1p655DqFozi5HdMVZaVPHxCVr7r2cU44R8",
+      "5v7ikipZDFrUq26tAcHHXvyxsJByf4HTqGc8W2BPVHT9Q1vZwvNRfK1xHXDVR18mbH",
+      "6bvLJw48Lm1i8DBPfi1wMKBooqF2Vspsd9MQ3GXpJ1ec3notVrMePB1yBB8fiF2qtu",
+      "7QSjY8KmZCkptqeP4RhgUUV9EhUMWQwUijZMRNDQvFtjDyPSmqNh912EXk6TRS33F3",
+      "6bmQpVDCyPBj3eNQ4Bz7zjGCC52rZ2PgtBANazbkESPVjxoHyGkJuPmmyB15ikekTH",
+      "72F3MbVLuUzxALsXAsTEJptYFGL9ewrHFhktZCGvj7JhWXnKJScpVqbbVTAEvU9Tok"
+    ]
+
     cond do
+      addr in egypt ->
+        "pharaon"
+
       addr in af ->
         "AF"
+
+      addr in crab ->
+        "crab"
 
       addr in will_caster ->
         "will_caster"
