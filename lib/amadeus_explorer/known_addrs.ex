@@ -77,7 +77,7 @@ defmodule AmadeusExplorer do
       addr in mia ->
         "mia"
 
-      _ ->
+      true ->
         ""
     end
   end
