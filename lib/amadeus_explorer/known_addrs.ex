@@ -1,0 +1,84 @@
+defmodule AmadeusExplorer do
+  def known_addr(addr) do
+    mia = [
+      "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"
+    ]
+
+    af = [
+      "7SGTxaLStDPbLKnjcXC1fqN3xaGBs4oFEPVa6UVDwt5N63C7US4vf8wP9hB4p9Fdku",
+      "5sLrta7CRdnhwdRrtN25dxS8HbUKbcpjprJ1Kxe1pBtfNefz4pPDLH6C8MQLCXb91i",
+      "5wrduSMTjRxz5x7JXKxJ3nSehpRHaMZGyAdiRtqkBNBXzNpfxx2KPsxEVAHDV7KFMp"
+    ]
+
+    will_caster = [
+      "5qYZD8HVJzXX4UJDCe6gHdAu4or2jWdnkUX1ZLdGxBx3cKj6NkbXNz46CGxMjqyuL1",
+      "7SGTxaLStDPbLKnjcXC1fqN3xaGBs4oFEPVa6UVDwt5N63C7US4vf8wP9hB4p9Fdku",
+      "6ddsvp1auJ2zWqDwFJdoHvijEsHyXLfS2yFnxmyCBfgU7PsNRoeMgJSRhdforShBk5"
+    ]
+
+    cond do
+      addr in af ->
+        "AF"
+
+      addr in will_caster ->
+        "will_caster"
+
+      addr in mia ->
+        "mia"
+
+      _ ->
+        ""
+    end
+  end
+end
