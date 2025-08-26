@@ -1,6 +1,6 @@
 defmodule AmadeusExplorer.KnownAddrs do
   def known_addr(addr) do
-    mia = [
+    af_store = [
       "6HpVK1LFZceLgsk1DNoLifN4F9dFoc2T54332AFF44BTwVoTb1GUdMm9zoGtB4DEfd",
       "6wXW5WyAZwYcc4jXonhhBSFsHtZmthYqoWVPpS2PocJpwjpb397hLCRzjFYz4jCCdj",
       "6QdTwjnMuTVQNPDEkh42eay3M86Wik9yeCygvPfhjj3MVdiQFzQiejVCpSdqhuc4b1",
@@ -68,6 +68,33 @@ defmodule AmadeusExplorer.KnownAddrs do
       "7DEimnJFN6fPy8k32MHgg7UBY4iqHHcqbHBWX1i4dMhyiJtNMKPhecADXKeHyTstHh",
       "6uFFKt5CeRMbrjhygrmXqbdyBWCSoNMkkApe6Pxi5FxCNbJcT4ggg8cKD873tANYok",
       "5wi996mL5YemU1xYxsdMjiAq1mVg63NGKwTm8UgYVafFkLP2Rp2tDECmmxWTA3mYST"
+    ]
+
+    #provided by mr.xd and zgirt
+    af4 = [
+      "6dMdVmY2tN7LiggiCRuiVM6MAr5MAHceFWyVBFhSXu51J6ZLXrLg3Wg1AtTLhF8oJA",
+      "69NPSDVUjRwV2c466zEvQ6mT1JzP6zATyfQtEwBCH9getRUzoMzG7LnaNLADDwvGAe",
+      "6VfQHfJLD91cfkbmKkV12nwPamtupsC7vZuweTfBbLY69NeEUMu7nANfm9uD5JncQg",
+      "7bpGVi7kzUtnYSMYrxUzhmnn6HNT8djGF3HMvV61bgDEnYs1DicSvS8uftyixrZtEk",
+      "6vZPMtyCJh8GZ3LYgCs7zCr6YqcnBQrHvUQJ1LNZVdcxgXJuKFQqESL1Z3QEyc3d9k",
+      "7JFfsY7dvv6hgQqbZpjoSHkz7yLnAucityve4XN2KHWoLtkYd24eXzR8hRVgstwp2o",
+      "5kHF98WhbTZ1Vy1T7JWZPyzkT75hYQym32ZW4AEcpTQZRNHbPzJKEeShkQP32F3hQe",
+      "7KyFgausMHw9HyNBeLjuhEDcaEFNc3WMDsmbBJQcWar7T9wzjGa9DozB2F991UdwD7",
+      "65Coqwu5PQ2zHKL8MubAJRCB2jDVJbtgvf6KjnVGDi8osr7NxgsMooTY53fErjWQNN",
+      "7EUorF3cVLhhGMCAfZo2MGC6vZXGQJcXv9gpAve6zeJ8gHWcjpL3GS697aC7gSSHfi",
+      "7P8Boo5EhFPybRKuoXrnLt8YvM2geaNPkEQ28g7zyNLQsjQNHKjBQ3tkHru3d8g2bV",
+      "6uCWrNLaMzWjPM9PfieLzTLsGuvHnEKdw3M5WJe7jJMqWDLJp2U24dx6XSoy8aj4B4",
+      "6GH7Docfyj9KnDJYhW1yzxsEyhGB69Ncj4WsjNNjEfYxgxbJYgsQgM4z5e38jyeCN4",
+      "7Q2KbcnQVth1kJhGDaX9HTcoG48FxQbU7RN2ioBYpPfJTWF27zTJCSyFjY7kUB3AbP"
+    ]
+
+    af2 = [
+      "67Y9fjFVA5DHTWfNGfRKamFXx43PmrreqF4f36SUPfoLvfhuerAq4nvXbmyCrLUUPD",
+      "66Q1Cdt9YVaY3Ak5jgwvHTZrQmwZaHtMDszGhPjFn9L6JBqrX75tkCQJfE7URu68sd",
+      "5zN69JJ6nCJcXdfxcHHG1q9fBJnKXDXWqkzMZQ2Y1gmaSvWwezYF1zD7GKUx1zbQoq",
+      "5jX2GHtbPnRcQ2EcAAEJNgLQtf3jrxzZVuhES4nTZhjtA8ofEwxH92TZfXspAUHxda",
+      "6uFFKt5CeRMbrjhygrmXqbdyBWCSoNMkkApe6Pxi5FxCNbJcT4ggg8cKD873tANYok",
+      "7bd4moBphcUfcx1DYkMHhs26V29ibaS87wHbVpaU9zaJvbasKEdnkVHJ5en2QZkpdp"
     ]
 
     will_caster = [
@@ -139,6 +166,12 @@ defmodule AmadeusExplorer.KnownAddrs do
       addr in af ->
         "AF"
 
+      addr in af2 ->
+        "AF2"
+
+      addr in af4 ->
+        "AF4"
+
       addr in crab ->
         "crab"
 
@@ -148,7 +181,7 @@ defmodule AmadeusExplorer.KnownAddrs do
       addr in actor2 ->
         "actor2"
 
-      addr in mia ->
+      addr in af_store ->
         "mia"
 
       addr in initials ->
